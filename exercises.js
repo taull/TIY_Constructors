@@ -37,9 +37,60 @@ function expect(target) {
 //
 // Only add code to *THIS* section!
 
-// ????????
-// ????????
-// ????????
+// function Dog (attributes){
+//   'use strict';
+//     _.defaults(attributes, {
+//       status: "normal",
+//       hungry: true
+//       });
+//
+//     _.extend(this, attributes);
+// }
+//
+//
+// function Human (actions){
+//   'use strict';
+//   _.defaults(actions, {
+//     cool: false,
+//   });
+//
+//   _.extend(this, actions);
+// }
+
+function Dog(options) {
+  'use strict';
+  this.status = 'normal';
+  this.hungry = true;
+}
+
+function Human() {
+  'use strict';
+  this.cool = false;
+}
+
+
+Human.prototype.pet = function(dog){
+  dog.status = 'happy';
+  sadie.color = 'black';
+  sadie.hungry = false;
+};
+
+Human.prototype.feed = function(dog){
+  dog.hungry = false;
+  mason.cool = false;
+  julia.cool = true;
+
+
+};
+
+
+
+
+
+
+
+
+
 
 
 //        __
