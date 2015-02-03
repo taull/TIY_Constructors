@@ -57,7 +57,7 @@ function expect(target) {
 //   _.extend(this, actions);
 // }
 
-function Dog(options) {
+function Dog() {
   'use strict';
   this.status = 'normal';
   this.hungry = true;
